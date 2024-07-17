@@ -1,0 +1,182 @@
+.movie{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 10px auto;
+    width: 100%;
+    position: relative;
+}
+.movie-backdrop-image img{
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    filter: blur(0.8px);
+    border-radius: 10px;
+}
+.movie-detail{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 75%;
+   
+    
+}
+.movie-detail-left .movie-poster img{
+    margin-top: 300px;
+    width: 300px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+.movie-detail-right{
+    margin-top: 80px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.movie-title h3{
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 900;
+}
+.movie-title p{
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 2px 1px 1px black;
+}
+.movie-rating{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.movie-rating span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.release-date{
+    font-size: 18px;
+    font-weight: 600;
+}
+.genre{
+    display: flex;
+    gap: 20px;
+}
+.genre span{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+.movie-overview{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.movie-overview h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 1px 1px black;
+}
+.useful-links{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.useful-links i{
+    margin-left: 5px;
+}
+.homepage-link{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+}
+.imdb-link{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.companies-name{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.companies-name h3{
+    font-weight: 900;
+    font-size: 20px;
+    text-shadow: 2px 1px 1px black;
+}
+.production-companies{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.company-detail{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* margin-top: 50px; */
+}
+.company-detail img{
+    width: 100px;
+}
+
+@media (max-width: 1200px){
+    .movie-backdrop-image img{
+        display: none;
+    }
+    .movie-detail{
+        position: relative;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    .movie{
+        width: 700px;
+    }
+
+    .movie-detail{
+        width: 700px;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .genre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .movie{
+        max-width: 400px;
+    }
+    .movie-detail{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .movie{
+        max-width: 300px;
+
+    }
+    .movie-detail{
+        max-width: 300px;
+    }
+    .movie-detail-left .movie-poster img{
+        width: 200px;
+    }
+    
+}
+

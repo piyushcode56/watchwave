@@ -1,0 +1,91 @@
+
+nav{
+    height: 70px;
+    background-color: #1c1b1b;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.nav-name img{
+    width: 90px;
+    cursor: pointer;
+}
+.nav-links ul{
+    display: flex;
+    gap: 25px;
+}
+.nav-links ul li{
+    list-style-type: none;
+}
+
+.nav-links ul li a:hover{
+    color: #a39f9f;
+    text-decoration: underline;
+}
+
+
+.search-movies a{
+    background-color: purple;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+.nav-links ul a{
+    
+    font-weight: 600;
+}
+.sidebar{
+    display: flex;
+}
+.nav-sidebar{
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.9);
+    box-shadow: 2px 2px 4px black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+}
+.nav-sidebar li{
+    
+    padding: 20px;
+    width: 100%;
+}
+nav .cross-button{
+    background-color: rgba(255, 0, 0, 0.537);
+}
+
+@media (max-width: 600px){
+    
+    .nav-links ul a{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .nav-links ul{
+        display: flex;
+        gap: 10px;
+    }
+    
+}
+@media (max-width: 700px) {
+    .hideOnMobile{
+        display: none;
+    }
+}
+@media (min-width: 700px) {
+    .hideOnDesktop{
+        display: none;
+    }
+}
