@@ -27,10 +27,10 @@ const Footer = () => {
         <div className="footer-section">
             <div className="footer-links">
                 <ul>
-                <Link to={'/watchwave'}><li className='hideOnMobile'><a href="">Home</a></li></Link>
-                <Link to={'/movies/popular'}><li className='hideOnMobile'><a href="">Popular</a></li></Link>
-                <Link to={'/movies/top_rated'}><li className='hideOnMobile'><a href="">Top Rated</a></li></Link>
-                <Link to={'/movies/upcoming'}><li className='hideOnMobile'><a href="">Upcoming</a></li></Link>
+                <Link to={'/watchwave'}><li ><a href="">Home</a></li></Link>
+                <Link to={'/movies/popular'}><li ><a href="">Popular</a></li></Link>
+                <Link to={'/movies/top_rated'}><li ><a href="">Top Rated</a></li></Link>
+                <Link to={'/movies/upcoming'}><li ><a href="">Upcoming</a></li></Link>
                 </ul>
 
                 

@@ -21,6 +21,7 @@
    
     
 }
+
 .movie-detail-left .movie-poster img{
     margin-top: 300px;
     width: 300px;
@@ -138,78 +139,155 @@
     
 }
 
-/* @media (max-width: 850px) {
-    .movie-poster img{
-        margin-top: 10px;
+@media (max-width: 850px) {
+    .movie {
+        width: 100%;
+        padding: 10px;
     }
-    .movie{
-        width: 700px;
+    .movie-backdrop-image img {
+        display: none;
     }
-    .movie-detail{
-        width: 700px;
+    .movie-detail {
+        width: 100%;
         margin: 10px auto;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
-    .genre{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-} */
-
-@media (max-width: 500px) {
-    .movie-detail-left{
-        width: 300px;
-    }
-    .movie-poster img{
+    .movie-detail-left .movie-poster img {
         margin-top: 10px;
         width: 200px;
-        
+        margin-left: 0;
+        box-shadow: 2px 2px 2px black;
     }
-    .genre{
-        display: flex;
-        flex-direction: row;
+    .movie-detail-right {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .movie-title h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .movie-title p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .movie-rating {
+        justify-content: center;
+        gap: 10px;
+    }
+    .release-date {
+        text-align: center;
+    }
+    .genre {
+        justify-content: center;
         flex-wrap: wrap;
+        gap: 10px;
     }
-    .movie-detail{
-        width: 400px;
-        display: flex;
-        flex-direction: column;
+    .movie-overview {
+        align-items: center;
     }
-    .movie-detail-right{
-        width: 300px;
-    }
-    .useful-links{
-        width: 380px;
-        display: flex;
-        justify-content: space-around;
-    }
-    .production-companies{
-        width: 350px;
-        margin-left: 20px;
-
-    }
-    .production-companies img{
-        width: 100px;
-    }
-}
-
-@media (max-width: 400px) {
-    .movie-title h3{
+    .movie-overview h3 {
         font-size: 18px;
+        text-align: center;
     }
-    .movie{
-        width: 400px;
+    .useful-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
     }
-    .movie-detail-right{
-        width: 300px;
+    .homepage-link, .imdb-link {
+        padding: 8px;
+        border-radius: 5px;
     }
-    .useful-links{
-        width: 350px;
+    .companies-name {
+        margin-top: 50px;
+        text-align: center;
     }
-    
+    .production-companies {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .company-detail img {
+        width: 80px;
+    }
+
 }
+
+@media (max-width: 500px) {
+    .movie {
+        width: 100%;
+        padding: 10px;
+    }
+    .movie-detail-left .movie-poster img {
+        margin-top: 10px;
+        width: 200px;
+        margin-left: 0;
+    }
+    .movie-detail {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie-detail-right {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .movie-title h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .movie-title p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .movie-rating {
+        justify-content: center;
+        gap: 10px;
+    }
+    .release-date {
+        text-align: center;
+    }
+    .genre {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .movie-overview h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .useful-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .homepage-link, .imdb-link {
+        padding: 8px;
+        border-radius: 5px;
+    }
+    .companies-name {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .production-companies {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .company-detail img {
+        width: 80px;
+    }
+
+}
+
+
 
 

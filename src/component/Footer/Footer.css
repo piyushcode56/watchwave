@@ -56,3 +56,11 @@
     list-style-type: none;
     cursor: pointer;
 }
+@media (max-width: 450px) {
+    .footer-website-links ul li{
+        font-size: 20px;
+    }
+    .footer-links ul li a{
+        font-size: 12px;
+    }
+}
