@@ -1,6 +1,7 @@
 import React from 'react'
 import FooterLogo from '../../assets/watchwave_transparent.png';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className='footer'>
@@ -26,10 +27,10 @@ const Footer = () => {
         <div className="footer-section">
             <div className="footer-links">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Popular</a></li>
-                    <li><a href="">Top Rated</a></li>
-                    <li><a href="">Upcoming</a></li>
+                <Link to={'/watchwave'}><li className='hideOnMobile'><a href="">Home</a></li></Link>
+                <Link to={'/movies/popular'}><li className='hideOnMobile'><a href="">Popular</a></li></Link>
+                <Link to={'/movies/top_rated'}><li className='hideOnMobile'><a href="">Top Rated</a></li></Link>
+                <Link to={'/movies/upcoming'}><li className='hideOnMobile'><a href="">Upcoming</a></li></Link>
                 </ul>
 
                 

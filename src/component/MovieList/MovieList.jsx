@@ -37,7 +37,9 @@ const MovieList = () => {
                         return <Card movie={movie}></Card>
                     })
                 :
-                ("Loading...")
+                <div className="spinner">
+                    
+                </div>
             }
             </div>
     

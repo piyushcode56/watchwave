@@ -37,3 +37,18 @@
     transition: 0.3s ease;
     
 }
+
+@media (max-width: 500px) {
+    .movie-data{
+        width: 350px;
+    }
+    .movie-search{
+        width: 350px;
+    }
+    .movie-search form input{
+        width: 80%;
+    }
+    .movie-search form button{
+        width: 20%;
+    }
+}

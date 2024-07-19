@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 1300px) {
+    .poster-image img{
+        height: 400px;
+        object-fit: cover;
+    }
     .poster-image{
         max-width: 1300px;
         height: 200px;
@@ -65,4 +69,10 @@
     }
     
     
+}
+@media (max-width: 500px){
+    .poster-image img{
+        height: 400px;
+        object-fit: cover;
+    }
 }

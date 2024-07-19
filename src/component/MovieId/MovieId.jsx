@@ -36,12 +36,16 @@ const MovieId = () => {
     }
     useEffect(()=>{
       fetchVideo()
+      
     },[])
 
     const opts = {
       height: '200',
       width: '300'
     };
+
+    
+    
   return (
     <div className='movie'>
       <div className="movie-backdrop-image">

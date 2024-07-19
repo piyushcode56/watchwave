@@ -59,7 +59,7 @@ const SearchPage = () => {
         </div>
        
         <div className='movie-data'>
-            
+           
             {   
                 userMovieData.map((movie)=>{ 
                     return movie.poster_path ?
