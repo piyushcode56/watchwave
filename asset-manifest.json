@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/watchwave/static/css/main.542d4e7e.css",
+    "main.js": "/watchwave/static/js/main.10f2befd.js",
+    "static/media/watchwave_transparent.png": "/watchwave/static/media/watchwave_transparent.3d4d21a38071af1a7b21.png",
+    "index.html": "/watchwave/index.html",
+    "main.542d4e7e.css.map": "/watchwave/static/css/main.542d4e7e.css.map",
+    "main.10f2befd.js.map": "/watchwave/static/js/main.10f2befd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.542d4e7e.css",
+    "static/js/main.10f2befd.js"
+  ]
+}
